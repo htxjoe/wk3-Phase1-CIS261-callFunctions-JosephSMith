@@ -36,9 +36,10 @@ if __name__ == "__main__":
     totalHours = 0.00
     totalGrossPay = 0.00
     totalTax = 0.00
+    totalNetPay = 0.00
     while True:
         empName = getEmpName()
-        if (empName.upper() == "End"):
+        if (empName.upper() == "END"):
             break
         hours = getHoursWorked()
         hourlyRate = getHourlyRate()
